@@ -1,6 +1,8 @@
 
 cc_library_static {
     name: "libregistermsext",
+    defaults: ["camera_in_mediaserver_defaults"],
+
     srcs: ["register.cpp"],
 
     cflags: [
